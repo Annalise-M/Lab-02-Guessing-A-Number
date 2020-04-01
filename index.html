@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <h3>Roll the dice! </h3>
+</header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+        
+        
+        
+        <h2>Try your luck!</h2>
+        <p>Step right up and roll the dice!</p>
+        <p>But be careful! </p>
+        <p>You only get 3 tries till your luck runs out!</p>
+        <p>And remember, your odds are between 2 dice!</p>
+        Good Luck! 
+        <p>Tries remaining;<span id="tries-display">
+        
+        </span></p>
+        <p>
+            <span id="too-high-or-too-low"></span>
+        </p>
+        <p>
+            <span id="you-win-some-you-lose-some"></span>
+        </p>
+        <br><br>
+        <input id="number-guess" type="number" min="2" max="12">
+        <br><br>
+        <button id="myButton">Feeling Lucky Punk? </button>
+        <h1>
+            <img src="https://bestanimations.com/Games/Dice/rolling-dice-gif-3.gif" alt="rolling dice" />
+        </h1>
+        
+        <br><br>
+        
+    </div>
+
+
+
+ <script type="module" src="app.js"></script>
+</body>
+
+</html>
+
+<!-- lets add an image of some dice maybe? / set as background? have it fill the page -->
+ <!-- I want to put a Button in here / button to say FeelingGame?   -->
+ <!-- I want the clicks to have 3 tries to guess the odds of what the dice will land on -->
+ <!-- note that the odds are 1 to 12 -->
+<!-- I want to make a random number generater and set it to reset after 3 losses or 1 win-->
